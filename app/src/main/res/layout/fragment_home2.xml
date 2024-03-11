@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvMarket2"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_8"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="18dp"
+                            android:src="@drawable/ic_market" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/aleo_bold"
+                            android:text="@string/market_home2"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvSocial2"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_9"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivSocial2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_social" />
+
+                    <TextView
+                        android:id="@+id/tvSocial2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivSocial2"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/social"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvCrypto2"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_8"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivCrypto2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_crypto" />
+
+                    <TextView
+                        android:id="@+id/tvCrypto2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivCrypto2"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/crypto"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_9"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivBusiness2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_business" />
+
+                    <TextView
+                        android:id="@+id/tvBusiness2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivBusiness2"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/business"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_8"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivLove2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_love" />
+
+                    <TextView
+                        android:id="@+id/tvLove2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivLove2"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/love"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_9"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivTop100"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_top_100" />
+
+                    <TextView
+                        android:id="@+id/tvTop100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivTop100"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/top_100"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_8"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivJournal2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_journal" />
+
+                    <TextView
+                        android:id="@+id/tvJournal2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivJournal2"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/journal"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_9"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivTop10_2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_top_10" />
+
+                    <TextView
+                        android:id="@+id/tvTop10_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivTop10_2"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/top_10"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_8"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivRmb2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_rmb" />
+
+                    <TextView
+                        android:id="@+id/tvRmb2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivRmb2"
+                        android:layout_marginStart="62dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/rmb"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_9"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivMoney2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_money" />
+
+                    <TextView
+                        android:id="@+id/tvMoney2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivMoney2"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/money"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_8"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivStudies2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_studies" />
+
+                    <TextView
+                        android:id="@+id/tvStudies2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivStudies2"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/studies"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/card_9"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/ivVpn2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="35dp"
+                        android:src="@drawable/ic_vpn" />
+
+                    <TextView
+                        android:id="@+id/tvVpn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ivVpn2"
+                        android:layout_marginStart="65dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/aleo_bold"
+                        android:text="@string/vpn"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

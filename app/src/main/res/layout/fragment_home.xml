@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tvTitle"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:layout_marginTop="50dp"-->
+        <!--            android:text="@string/babilone"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="30sp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvMarket"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="@color/card_1"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivMarket"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/market" />
+
+            <TextView
+                android:id="@+id/tvMarket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/market"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvSocial"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="@color/card_2"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivSocial"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/social" />
+
+            <TextView
+                android:id="@+id/tvSocial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/social"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvCrypto"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="@color/card_3"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivCrypto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/crypto" />
+
+            <TextView
+                android:id="@+id/tvCrypto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/crypto"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvBusiness"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/cvMarket"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/card_4"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivBusiness"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/business" />
+
+            <TextView
+                android:id="@+id/tvBusiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/business"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLove"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/cvSocial"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="7dp"
+            android:backgroundTint="@color/card_5"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivLove"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/love" />
+
+            <TextView
+                android:id="@+id/tvLove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/love"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTop100"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/cvCrypto"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/card_6"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivTop100"
+                android:layout_width="54dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/top100" />
+
+            <TextView
+                android:id="@+id/tvTop100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/top_100"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvJournal"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/cvBusiness"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/card_7"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivJournal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/journal" />
+
+            <TextView
+                android:id="@+id/tvJournal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/journal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvTop10"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/cvLove"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/card_8"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivTop10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/top10" />
+
+            <TextView
+                android:id="@+id/tvTop10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/top_10"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvRmb"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/cvTop100"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/card_9"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivRmb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/rmb" />
+
+            <TextView
+                android:id="@+id/tvRmb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/rmb"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvMoney"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/cvJournal"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/card_10"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivMoney"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/money" />
+
+            <TextView
+                android:id="@+id/tvMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/money"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvStudies"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/cvTop10"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/card_11"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivStudies"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/studies" />
+
+            <TextView
+                android:id="@+id/tvStudies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/studies"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvVpn"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/cvRmb"
+            android:layout_marginStart="276dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/card_12"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/ivVpn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/vpn" />
+
+            <TextView
+                android:id="@+id/tvVpn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/vpn"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

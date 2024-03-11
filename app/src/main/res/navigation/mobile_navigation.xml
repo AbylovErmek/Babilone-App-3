@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/NavHomeFragment">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.babiloneapp3.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.babiloneapp3.ui.search.SearchFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.babiloneapp3.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.babiloneapp3.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_payment"
+        android:name="com.example.babiloneapp3.ui.search.payment.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.example.babiloneapp3.ui.other.BusinessFragment"
+        android:label="fragment_business"
+        tools:layout="@layout/fragment_business" />
+    <fragment
+        android:id="@+id/cryptoFragment"
+        android:name="com.example.babiloneapp3.ui.other.CryptoFragment"
+        android:label="fragment_crypto"
+        tools:layout="@layout/fragment_crypto" />
+    <fragment
+        android:id="@+id/journalFragment"
+        android:name="com.example.babiloneapp3.ui.other.JournalFragment"
+        android:label="fragment_journal"
+        tools:layout="@layout/fragment_journal" />
+    <fragment
+        android:id="@+id/loveFragment"
+        android:name="com.example.babiloneapp3.ui.other.LoveFragment"
+        android:label="fragment_love"
+        tools:layout="@layout/fragment_love" />
+    <fragment
+        android:id="@+id/marketFragment"
+        android:name="com.example.babiloneapp3.ui.other.MarketFragment"
+        android:label="fragment_market"
+        tools:layout="@layout/fragment_market" />
+    <fragment
+        android:id="@+id/moneyFragment"
+        android:name="com.example.babiloneapp3.ui.other.MoneyFragment"
+        android:label="fragment_money"
+        tools:layout="@layout/fragment_money" />
+    <fragment
+        android:id="@+id/rmbFragment"
+        android:name="com.example.babiloneapp3.ui.other.RmbFragment"
+        android:label="fragment_rmb"
+        tools:layout="@layout/fragment_rmb" />
+    <fragment
+        android:id="@+id/socialFragment"
+        android:name="com.example.babiloneapp3.ui.other.SocialFragment"
+        android:label="fragment_social"
+        tools:layout="@layout/fragment_social" />
+    <fragment
+        android:id="@+id/studiesFragment"
+        android:name="com.example.babiloneapp3.ui.other.StudiesFragment"
+        android:label="fragment_studies"
+        tools:layout="@layout/fragment_studies" />
+    <fragment
+        android:id="@+id/top10Fragment"
+        android:name="com.example.babiloneapp3.ui.other.Top10Fragment"
+        android:label="fragment_top10"
+        tools:layout="@layout/fragment_top10" />
+    <fragment
+        android:id="@+id/top100Fragment"
+        android:name="com.example.babiloneapp3.ui.other.Top100Fragment"
+        android:label="fragment_top100"
+        tools:layout="@layout/fragment_top100" />
+    <fragment
+        android:id="@+id/vpnFragment"
+        android:name="com.example.babiloneapp3.ui.other.VpnFragment"
+        android:label="fragment_vpn"
+        tools:layout="@layout/fragment_vpn" />
+    <fragment
+        android:id="@+id/NavHomeFragment"
+        android:name="com.example.babiloneapp3.Home2Fragment"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" />
+</navigation>
