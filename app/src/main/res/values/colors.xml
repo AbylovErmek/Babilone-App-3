@@ -28,4 +28,10 @@
     <color name="card_13">#a8c0ff</color>
     <color name="card_14">#4e54c8</color>
 
+<!--    Dashboard-->
+    <color name="card_dashboard">#DDDCCE</color>
+
+    <color name="blue_gray">#d9d9d9</color>
+    <color name="red">#e82020</color>
+
 </resources>

@@ -6,11 +6,34 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/card_dashboard">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/materialCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="false">
+
+                <androidx.appcompat.widget.SearchView
+                    android:id="@+id/searchView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:iconifiedByDefault="false" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </RelativeLayout>
 
         <GridLayout
             android:layout_width="match_parent"
@@ -28,7 +51,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_8"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -48,7 +71,7 @@
                             android:layout_width="70dp"
                             android:layout_height="70dp"
                             android:layout_marginTop="18dp"
-                            android:src="@drawable/ic_market" />
+                            android:src="@drawable/img_bag" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -70,7 +93,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_9"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -85,7 +108,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_social" />
+                        android:src="@drawable/img_chat" />
 
                     <TextView
                         android:id="@+id/tvSocial2"
@@ -108,7 +131,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_8"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -123,7 +146,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_crypto" />
+                        android:src="@drawable/img_bit" />
 
                     <TextView
                         android:id="@+id/tvCrypto2"
@@ -145,7 +168,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_9"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -160,7 +183,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_business" />
+                        android:src="@drawable/business" />
 
                     <TextView
                         android:id="@+id/tvBusiness2"
@@ -182,7 +205,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_8"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -197,7 +220,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_love" />
+                        android:src="@drawable/img_heart" />
 
                     <TextView
                         android:id="@+id/tvLove2"
@@ -219,7 +242,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_9"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -234,7 +257,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_top_100" />
+                        android:src="@drawable/top100" />
 
                     <TextView
                         android:id="@+id/tvTop100"
@@ -256,7 +279,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_8"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -271,7 +294,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_journal" />
+                        android:src="@drawable/img_notebook" />
 
                     <TextView
                         android:id="@+id/tvJournal2"
@@ -293,7 +316,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_9"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -308,7 +331,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_top_10" />
+                        android:src="@drawable/top10" />
 
                     <TextView
                         android:id="@+id/tvTop10_2"
@@ -330,7 +353,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_8"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -345,7 +368,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_rmb" />
+                        android:src="@drawable/rmb" />
 
                     <TextView
                         android:id="@+id/tvRmb2"
@@ -367,7 +390,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_9"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -382,7 +405,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_money" />
+                        android:src="@drawable/money" />
 
                     <TextView
                         android:id="@+id/tvMoney2"
@@ -404,7 +427,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_8"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -419,7 +442,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_studies" />
+                        android:src="@drawable/studies" />
 
                     <TextView
                         android:id="@+id/tvStudies2"
@@ -441,7 +464,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/card_9"
+                app:cardBackgroundColor="@color/card_dashboard"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp">
 
@@ -456,7 +479,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginStart="100dp"
                         android:layout_marginTop="35dp"
-                        android:src="@drawable/ic_vpn" />
+                        android:src="@drawable/vpn" />
 
                     <TextView
                         android:id="@+id/tvVpn2"

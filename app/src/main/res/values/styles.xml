@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="txtIntersemibold18">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+
+    <style name="txtIntermedium15">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+
+    <style name="txtIntersemibold16">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+
+    <style name="txtIntermedium14_2">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+
+    <style name="txtIntermedium14_1"></style>
+
+    <style name="txtIntermedium13">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+
+    <style name="txtIntermedium14_3">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+
+    <style name="txtIntersemibold18_2"></style>
+
+    <style name="txtIntermedium16_7">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+
+    <style name="etSolidRounded_3"></style>
+
+    <style name="txtIntermedium15_4"></style>
+
+    <style name="etSolidRounded_4">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_200</item>
+    </style>
+</resources>

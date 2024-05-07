@@ -24,5 +24,17 @@
     <string name="title_search">Search</string>
     <string name="title_notification">Notification</string>
     <string name="market_home2">Market</string>
+    <string name="lbl21">Категории</string>
+    <string name="lbl_4_5">4.5</string>
+    <string name="lbl_200">(200)</string>
+    <string name="lbl29">Разные услуги</string>
+    <string name="lbl_crystal">Crystal</string>
+
+    <string name="msg_victoria_gmai_com">victoria@gmai.com</string>
+    <string name="lbl67">Оплатить услуги</string>
+    <string name="EditText">Настройка уведомлений</string>
+    <string name="msg40">Настройка конфиденциальности\n</string>
+    <string name="lbl68">Темная тема</string>
+    <string name="Goout">Выйти</string>
 
 </resources>
